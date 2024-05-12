@@ -22,6 +22,8 @@ let cell4 = ``;
 let placeholder = ``;
 let counter = 0;
 
+// Switch statement version
+
 for (let char of str) {
   switch (char) {
     // If comma do this
@@ -68,6 +70,8 @@ for (let char of str) {
   }
 }
 
+
+// if and else version
 for (let char of str) {
   // If comma do this
   if (char === ' ,') {
@@ -109,3 +113,12 @@ for (let char of str) {
     }
   }
 }
+
+/*
+Objectives
+Use arrays to store ordered lists of data.
+Use objects to store keyed lists of data.
+Use conditional logic to process data.
+Use loops to handle repetitive tasks.
+Transform data according to specifications.
+*/
